@@ -12,24 +12,54 @@
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
         }
         h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #eee;
+            color: #FFC15A;
+            border-bottom: 2px solid #FFBE75;
             padding-bottom: 10px;
+            margin: 0;
         }
         h2 {
-            color: #34495e;
+            color: #FFBE75;
             margin-top: 30px;
+            padding: 5px 10px;
+            background-color: rgba(255, 193, 181, 0.1);
+            border-radius: 5px;
         }
         .last-updated {
             color: #666;
             font-style: italic;
         }
+        ul {
+            background-color: rgba(255, 207, 136, 0.1);
+            padding: 20px 40px;
+            border-radius: 5px;
+            border-left: 3px solid #FFCF88;
+        }
+        li {
+            margin: 10px 0;
+        }
+        p {
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
-    <h1>Terms of Service</h1>
+    <div class="header">
+        <img src="../Assets/Logo_Enigmate_Transparent.png" alt="Enigmate Logo" class="logo">
+        <h1>Terms of Service</h1>
+    </div>
     <p class="last-updated">Last Updated: [Current Date]</p>
 
     <p>Welcome to Enigmate! These Terms of Service ("Terms") govern your access to and use of the Enigmate mobile application and related services (collectively, the "Service"). Please read these Terms carefully before using the Service.</p>
